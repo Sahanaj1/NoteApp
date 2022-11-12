@@ -1,0 +1,78 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image:url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/a3c7d860749013.5a58798e25583.gif");
+    background-size: cover;
+  }
+  
+  .loginTitle {
+    font-size: 50px;
+  }
+  
+  .loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loginForm > label {
+    margin: 10px 0;
+  }
+  
+  .loginInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .loginInput:focus {
+    outline: none;
+  }
+  .linkSignin{
+    color:white;
+    text-decoration: none;
+  }
+  .loginButton {
+    margin-top: 40px;
+    cursor: pointer;
+    background-color: lightcoral;
+    color: white;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.8);
+  background: rgb(145, 92, 182);
+  padding: 10px 30px;
+  border-radius: 6px;
+  font-weight: normal;
+  margin: 20px;
+  border: none;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  }
+  .loginButton:disabled{
+    cursor: not-allowed;
+    background-color: rgb(252, 173, 173);
+  }
+  .loginRegisterButton {
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    color: rgba(255, 255, 255, 0.8);
+  background-color: rgb(145, 92, 182);
+  padding: 10px 30px;
+  border-radius: 6px;
+  font-weight: normal;
+  margin: 3px;
+  border: none;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  }
+  .glow-button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgb(124, 45, 107);
+  }

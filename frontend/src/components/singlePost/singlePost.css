@@ -1,0 +1,399 @@
+@media screen and(max-width:500px){
+  .singlePost {
+    flex: 5;
+    background-color: black;
+  }
+  
+  .singlePostWrapper {
+    padding: 5px;
+    padding-right: 2;
+    display: flex;
+    flex-direction: column;
+    margin-left: -10px;
+  }
+  .link{
+    text-decoration: none;
+    color: black;
+  }
+  .singlePostImg {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-left: -10px;
+  }
+  
+  .singlePostTitle {
+    text-align: center;
+    margin: 5px;
+    font-family: "Lora", serif;
+    font-size: 20px;
+  }
+  
+  .singlePostTitleInput {
+    margin: 5px;
+    font-family: "Lora", serif;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    color: gray;
+    border-bottom: 1px solid lightgray;
+    width:50px;
+  }
+  
+  .singlePostTitleInput:focus {
+    outline: none;
+  }
+  
+  .singlePostEdit {
+    float: right;
+    font-size: 12px;
+  }
+  
+  .singlePostIcon {
+    margin-left: 7px;
+    cursor: pointer;
+  }
+  
+  .singlePostIcon:first-child {
+    color: teal;
+  }
+  
+  .singlePostIcon:last-child {
+    color: tomato;
+  }
+  
+  .singlePostInfo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-family: "Varela Round", sans-serif;
+    color: #b39656;
+  }
+  .singlePostInfo span{
+font-size: 20px;
+  }
+  .singlePostDesc {
+    color: #666;
+    font-size: 13px;
+    line-height: 25px;
+  }
+  
+  .singlePostDesc::first-letter {
+    /* margin-left: 12px; */
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .singlePostDescInput {
+    border: none;
+    color: #666;
+    font-size: 13px;
+    line-height: 25px;
+    width:50px;
+  }
+  .link{
+    text-decoration: none;
+    color: black;
+  }
+  .singlePostDescInput:focus {
+    outline: none;
+  }
+  .singlePostButton {
+    width: 20px;
+    border: none;
+    background-color: teal;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 20px;
+    margin-left: -20px;
+  }
+  
+  .understood{
+    font-weight: bolder;
+    background-color: white;
+    color: green;
+}
+.somewhat{
+    font-weight: bolder;
+    background-color: white;
+    color: yellow;
+}
+.notClear{
+    font-weight: bolder;
+    background-color: white;
+    color: lightblue;
+}
+.rubbish{
+    font-weight: bolder;
+    background-color: white;
+    color: red;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10px;
+}
+.button{
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(145, 92, 182);
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-weight: normal;
+  margin: 3px;
+  border: none;
+  width:10px;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+.glow-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgb(124, 45, 107);
+}
+}
+
+
+
+.singlePost {
+  flex: 9;
+  margin-top: 10%;
+  width: 60%;
+  height: 695px;
+}
+
+.singlePostWrapper {
+  padding: 20px;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.singlePostImg {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.singlePostTitle {
+  text-align: center;
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 28px;
+  width: 90%;
+}
+
+.singlePostTitleInput {
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 28px;
+  text-align: center;
+  border: none;
+  color: gray;
+  border-bottom: 1px solid lightgray;
+}
+
+.singlePostTitleInput:focus {
+  outline: none;
+}
+
+.singlePostEdit {
+  float: right;
+  font-size: 16px;
+}
+
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+  color: teal;
+}
+
+.singlePostIcon:last-child {
+  color: tomato;
+}
+
+.singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: "Varela Round", sans-serif;
+  color: #b39656;
+}
+
+.singlePostDesc {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singlePostDesc::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.singlePostDescInput {
+  border: none;
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singlePostDescInput:focus {
+  outline: none;
+}
+.singlePostButton {
+  width: 100px;
+  border: none;
+  background-color: teal;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: 20px;
+}
+.understood{
+    font-weight: bolder;
+    background-color: white;
+    color: green;
+}
+.somewhat{
+    font-weight: bolder;
+    background-color: white;
+    color: yellow;
+}
+.notClear{
+    font-weight: bolder;
+    background-color: white;
+    color: lightblue;
+}
+.rubbish{
+    font-weight: bolder;
+    background-color: white;
+    color: red;
+}
+.progressBar{
+  justify-content: center;
+  align-content: center;
+  
+}
+/* .buttons{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10px;
+} */
+.button{
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(145, 92, 182);
+  padding: 10px 30px;
+  border-radius: 6px;
+  font-weight: normal;
+  margin: 3px;
+  border: none;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.understoodButton{
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(92, 151, 73);
+  padding: 10px 30px;
+  border-radius: 6px;
+  font-weight: normal;
+  margin: 3px;
+  border: none;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.SomewhatButton{
+  color: rgba(3, 3, 3, 0.8);
+  background: rgb(226, 255, 58);
+  padding: 10px 30px;
+  border-radius: 6px;
+  font-weight: normal;
+  margin: 3px;
+  border: none;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.notClearButton{
+  color: rgba(3, 3, 3, 0.8);
+  background: rgb(78, 199, 255);
+  padding: 10px 30px;
+  border-radius: 6px;
+  font-weight: normal;
+  margin: 3px;
+  border: none;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.rubbishButton{
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(255, 44, 44);
+  padding: 10px 30px;
+  border-radius: 6px;
+  font-weight: normal;
+  margin: 3px;
+  border: none;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.clickButton{
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(145, 92, 182);
+  padding: 10px 30px;
+  border-radius: 6px;
+  font-weight: normal;
+  margin: 3px;
+  border: none;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.pushButton{
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(145, 92, 182);
+  padding: 10px 30px;
+  border-radius: 6px;
+  font-weight: normal;
+  margin: 3px;
+  border: none;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.glow-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgb(124, 45, 107);
+}
+.understood-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgb(79, 255, 73);
+}
+.somewhat-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgb(67, 90, 2);
+}
+.not-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgb(14, 5, 141);
+}
+.rubbish-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgb(255, 140, 159);
+}
